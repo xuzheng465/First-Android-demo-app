@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
                 points--
         }
         findViewById<TextView>(R.id.points).text = "Points: $points"
+        // pretend fix
         pickRandomNumbers()
     }
 
